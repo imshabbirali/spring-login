@@ -1,8 +1,9 @@
 package com.gpch.login.service;
 
-import com.gpch.login.model.User;
-import com.gpch.login.repository.RoleRepository;
-import com.gpch.login.repository.UserRepository;
+import com.authentication.login.model.User;
+import com.authentication.login.repository.RoleRepository;
+import com.authentication.login.repository.UserRepository;
+import com.authentication.login.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
